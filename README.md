@@ -143,18 +143,9 @@ Have questions or suggestions? Feel free to:
 
 ## 📄 License
 
-<<<<<<< HEAD
 This project is open source developed by Umair and available for educational purposes.
-=======
-This project is open source and available for educational purposes.
->>>>>>> 334a8daf05a2482ad6b73b7c25dadbdcae32842d
 
 ---
-
 **Happy Coding!** ☕💻
 
-<<<<<<< HEAD
 *Remember: The best way to learn programming is by writing code. Start simple, practice daily, and gradually tackle more complex challenges.*
-=======
-*Remember: The best way to learn programming is by writing code. Start simple, practice daily, and gradually tackle more complex challenges.*
->>>>>>> 334a8daf05a2482ad6b73b7c25dadbdcae32842d
