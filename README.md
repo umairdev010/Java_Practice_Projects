@@ -25,26 +25,110 @@ Compare three numbers and identify the greatest value. This project demonstrates
 
 **Key Concepts**: Nested conditionals, logical operators, user input
 
-#### 2. Leap Year Calculator
+#### 2. Armstrong Number Validator
+**File**: `CheckingArmstrong.java`
+
+Check if a number equals the sum of its digits raised to the power of the number of digits. Includes helper methods for digit-counting and custom exponentiation.
+
+**Key Concepts**: Digit manipulation, custom power function, mathematical validation
+
+#### 3. Prime Number Tester
+**File**: `CheckingPrimeNo.java`
+
+Determine whether a given integer is prime. Uses an optimized trial-division loop that exits early on factors.
+
+**Key Concepts**: Trial division, early-exit loops, boundary cases (1, 2, 3)
+
+#### 4. Leap Year Calculator
 **File**: `CheckLeapYear.java`
 
-Determine whether a given year is a leap year using proper calendar rules. Implements the complete leap year algorithm.
+Decide if a year is a leap year via the full Gregorian-calendar rules (divisible by 4, 100, and 400).
 
-**Key Concepts**: Modulo operations, complex conditional logic, calendar mathematics
+**Key Concepts**: Modulo arithmetic, compound boolean conditions, calendar mathematics
 
-#### 3. Even/Odd Checker
+#### 5. Even/Odd Checker
 **File**: `CheckOldAndEven.java`
 
-Identify whether a number is even or odd using the modulo operator.
+Classify an integer as even or odd with the modulo operator.
 
-**Key Concepts**: Modulo arithmetic, basic conditionals, user interaction
+**Key Concepts**: Modulo arithmetic, single conditional, user interaction
 
-#### 4. Number Sign Detector
+#### 6. Bit-Level Even/Odd Checker
+**File**: `CheckOldEvenByBitWise.java`
+
+Same task as above, but uses bitwise AND (`& 1`) for instantaneous parity detection.
+
+**Key Concepts**: Bitwise operations, low-level optimization
+
+#### 7. Sign Detector
 **File**: `CheckPositiveAndNegative.java`
 
-Classify numbers as positive, negative, or zero with proper handling of edge cases.
+Report whether a number is positive, negative, or zero.
 
-**Key Concepts**: Comparison operators, if-else-if chains, zero handling
+**Key Concepts**: Relational operators, three-way branching
+
+#### 8. Factorial Computer
+**File**: `FactorialOfNumber.java`
+
+Compute n! iteratively for any non-negative integer supplied by the user.
+
+**Key Concepts**: Iterative accumulation, factorial definition, input validation
+
+#### 9. GCD Finder
+**File**: `FindGCDofNumbers.java`
+
+Calculate the greatest common divisor of two integers with a decrement-and-test algorithm.
+
+**Key Concepts**: Common divisor logic, pairwise comparison, iterative search
+
+#### 10. LCM Finder
+**File**: `FindingLCMOfNumbers.java`
+
+Determine the least common multiple by scanning upward from the larger number until a shared multiple appears.
+
+**Key Concepts**: Multiple scanning, multiplication properties, edge-case handling (≤ 0)
+
+#### 11. Fibonacci Series Generator
+**File**: `PrintingFibonacci.java`
+
+Output the Fibonacci sequence up to the largest value not exceeding the user-supplied limit.
+
+**Key Concepts**: Sequence generation, string concatenation, loop control
+
+#### 12. Star-Pattern Printer
+**File**: `PrintingStarPatterns.java`
+
+Draw two styles of text-based star triangles—incremental-width and decremental-width—based on user input.
+
+**Key Concepts**: Nested loops, string building, console graphics
+
+#### 13. Multiplication Table Printer
+**File**: `PrintMultiplicationTable.java`
+
+Display the 1-to-10 multiplication table for any given number.
+
+**Key Concepts**: Loop-driven tables, formatted console output
+
+#### 14. Digit Reverser
+**File**: `ReverseDigitsOfNumbers.java`
+
+Reverse the decimal digits of an integer using place-value multiplication.
+
+**Key Concepts**: Place-value decomposition, custom power-of-ten helper, long-return safety
+
+#### 15. Sum of Odd Numbers
+**File**: `SumAllOldTillNumber.java`
+
+Add every odd integer from 1 up to and including the user’s input.
+
+**Key Concepts**: Arithmetic progression, step-2 iteration, accumulator pattern
+
+#### 16. Digit-Sum Calculator
+**File**: `SumOfDigits.java`
+
+Sum all individual digits of an integer.
+
+**Key Concepts**: Digit extraction, modulo/divide loop, additive accumulation
 
 ## 🚀 Getting Started
 
