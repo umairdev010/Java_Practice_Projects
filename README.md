@@ -142,8 +142,8 @@ Sum all individual digits of an integer.
 
 1. Clone this repository:
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://github.com/umairdev010/Java_Practice_Projects
+cd Java_Practice_Projects
 ```
 
 2. Compile any Java file:
