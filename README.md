@@ -130,6 +130,48 @@ Sum all individual digits of an integer.
 
 **Key Concepts**: Digit extraction, modulo/divide loop, additive accumulation
 
+#### 17. Array Sorted Checker
+**File**: `CheckArraySorted.java`
+
+Determines whether an array of integers is sorted in ascending order. Uses a single pass to compare adjacent elements.
+
+**Key Concepts**: array traversal, comparison operators, early return
+
+#### 18. Array Element Deleter
+**File**: `DeleteNumberFromArray.java`
+
+Removes every occurrence of a specified number from an array and returns a new compacted array. Counts occurrences first to size the result array correctly.
+
+**Key Concepts**: array resizing, occurrence counting, filtering
+
+#### 19. Max Finder
+**File**: `FindingMinAndMaxNo.java`
+
+Finds the maximum value in an array by treating each element as a candidate and comparing it against all others. (Note: method name says “MinAndMax” but only max is implemented.)
+
+**Key Concepts**: nested loops, array comparison, linear search
+
+#### 20. Occurrence Counter
+**File**: `FindOccuranceOfNumber.java`
+
+Counts how many times a user-specified number appears in an array. Straightforward linear scan with a counter.
+
+**Key Concepts**: linear search, counters, user input
+
+#### 21. Array Reverser
+**File**: `ReverseArray.java`
+
+Creates a new array whose elements are the original array’s values in reverse order. Leaves the original array unchanged.
+
+**Key Concepts**: array indexing, in-place vs copy, iteration
+
+#### 22. Sum & Average Calculator
+**File**: `SumAndAvgOfArray.java`
+
+Calculates the total sum and arithmetic mean of an integer array, outputting both as a long and a double. Uses a long accumulator to reduce overflow risk.
+
+**Key Concepts**: accumulator pattern, type casting, average computation
+
 ## 🚀 Getting Started
 
 ### Prerequisites
