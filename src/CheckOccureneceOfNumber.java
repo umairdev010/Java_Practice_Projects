@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class PrintOnlyEvenFromArray {
+public class CheckOccureneceOfNumber {
     static void main(String[] args) {
-        System.out.println("WELLCOME TO SYSTEM TO PRINT ONLY EVEN FROM THE ARRAY");
+        System.out.println("WELLCOME TO CHECK OCCURRENCE OF SPECIFIC NUMBER FROM A ARRAY");
         Scanner input = new Scanner(System.in);
         System.out.print("PLEASE ENTER THE SIZE OF ARRAY : ");
         int sizeOfArray = input.nextInt();
@@ -19,19 +19,17 @@ public class PrintOnlyEvenFromArray {
             System.out.print(inputArray[i] + " ");
             i++;
         }
-        printingEven(inputArray);
+        System.out.print("PLEASE ENTER A NUMBER FOR CHECKING FROM ARRAY : ");
+        int checkNo = input.nextInt();
+        System.out.println("THE OCCURRENCE FOR THE NUMBER IS : " + checkOccurrence(inputArray,checkNo));
     }
 
-    public static void printingEven(int[] inputArray) {
-        int evens = 0;
-        System.out.print("THE EVEN NUMBERS IN ARRAY IS : ");
-        for (int i = 0; i < inputArray.length; i++) {
-            if (inputArray[i] % 2 == 0) {
-                System.out.print(inputArray[i] + " ");
-                evens++;
-            }
+    public static int checkOccurrence(int[] inputArray, int checkingNo){
+        int occurrence = 0;
+        for (int numb : inputArray){
+            if (numb == checkingNo) occurrence++;
         }
-        if (evens == 0) System.out.println("NO ONE");
+        return occurrence;
     }
 
 }
