@@ -172,6 +172,76 @@ Calculates the total sum and arithmetic mean of an integer array, outputting bot
 
 **Key Concepts**: accumulator pattern, type casting, average computation
 
+#### 23. Occurrence Checker
+**File**: `CheckOccureneceOfNumber.java`
+
+Counts how many times a user-specified number appears in an array. Uses an enhanced for-loop for concise traversal.
+
+**Key Concepts**: linear search, counters, enhanced for-loop
+
+#### 24. Prime Tester
+**File**: `CheckPrimeByForLoop.java`
+
+Checks whether a given integer is prime by attempting division from 2 up to n-1. Reports primality based on any successful division.
+
+**Key Concepts**: primality test, divisibility, flag counting
+
+#### 25. Input-Driven Loop Exit
+**File**: `ExitLoopByInput.java`
+
+Repeats echoing user input until the exact word “exit” (case-insensitive) is entered. Demonstrates do-while with string comparison.
+
+**Key Concepts**: do-while loop, string comparison, sentinel value
+
+#### 26. Max Finder (For-Loop)
+**File**: `FindingMaxByForLoop.java`
+
+Scans an array once to find and return the largest value. Initializes max with the first element to avoid empty-array pitfalls.
+
+**Key Concepts**: linear scan, max tracking, defensive programming
+
+#### 27. Multiplication Table
+**File**: `MultipleTableByForLoop.java`
+
+Prints the 1-to-10 multiplication table for any user-supplied integer. Classic nested-loop replacement with a single for-loop.
+
+**Key Concepts**: arithmetic formatting, loops, console output
+
+#### 28. Number Guessing Game
+**File**: `NumberGuessingGame.java`
+
+Keeps prompting the user to guess the fixed number 5 until successful. Simple do-while loop with bounded input range.
+
+**Key Concepts**: sentinel loop, user feedback, fixed target
+
+#### 29. Numeric Password Validator
+**File**: `PasswordChecker.java`
+
+Accepts only numeric passwords greater than 999 999, repeatedly prompting until the constraint is met. Treats the password as an integer.
+
+**Key Concepts**: input validation, do-while loop, numeric constraints
+
+#### 30. Fibonacci Series Printer
+**File**: `PrintingFabonnacciSeries.java`
+
+Prints the first n Fibonacci numbers via a recursive helper function. Demonstrates exponential recursion without memoization.
+
+**Key Concepts**: recursion, Fibonacci sequence, exponential complexity
+
+#### 31. Even-Number Filter
+**File**: `PrintOnlyEvenFromArray.java`
+
+Traverses an array and prints only the even values, counting how many it found. Reports “NO ONE” if no evens exist.
+
+**Key Concepts**: filtering, modulo operator, conditional output
+
+#### 32. Positive-Number Summer
+**File**: `SumOfAllPositiveNo.java`
+
+Sums all non-negative integers in an array, skipping negatives with a continue statement. Returns 0 if no positives are present.
+
+**Key Concepts**: accumulator, conditional summation, continue statement
+
 ## 🚀 Getting Started
 
 ### Prerequisites
