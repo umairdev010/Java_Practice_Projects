@@ -18,229 +18,205 @@ Master the fundamentals of Java programming with practical examples:
 
 ### Current Projects
 
-#### 1. Number Comparison Tool
-**File**: `CheckGreatestOfThreeNumbers.java`
-
-Compare three numbers and identify the greatest value. This project demonstrates conditional logic and comparison operators.
-
-**Key Concepts**: Nested conditionals, logical operators, user input
-
-#### 2. Armstrong Number Validator
-**File**: `CheckingArmstrong.java`
-
-Check if a number equals the sum of its digits raised to the power of the number of digits. Includes helper methods for digit-counting and custom exponentiation.
-
-**Key Concepts**: Digit manipulation, custom power function, mathematical validation
-
-#### 3. Prime Number Tester
-**File**: `CheckingPrimeNo.java`
-
-Determine whether a given integer is prime. Uses an optimized trial-division loop that exits early on factors.
-
-**Key Concepts**: Trial division, early-exit loops, boundary cases (1, 2, 3)
-
-#### 4. Leap Year Calculator
-**File**: `CheckLeapYear.java`
-
-Decide if a year is a leap year via the full Gregorian-calendar rules (divisible by 4, 100, and 400).
-
-**Key Concepts**: Modulo arithmetic, compound boolean conditions, calendar mathematics
-
-#### 5. Even/Odd Checker
-**File**: `CheckOldAndEven.java`
-
-Classify an integer as even or odd with the modulo operator.
-
-**Key Concepts**: Modulo arithmetic, single conditional, user interaction
-
-#### 6. Bit-Level Even/Odd Checker
-**File**: `CheckOldEvenByBitWise.java`
-
-Same task as above, but uses bitwise AND (`& 1`) for instantaneous parity detection.
-
-**Key Concepts**: Bitwise operations, low-level optimization
-
-#### 7. Sign Detector
-**File**: `CheckPositiveAndNegative.java`
-
-Report whether a number is positive, negative, or zero.
-
-**Key Concepts**: Relational operators, three-way branching
-
-#### 8. Factorial Computer
-**File**: `FactorialOfNumber.java`
-
-Compute n! iteratively for any non-negative integer supplied by the user.
-
-**Key Concepts**: Iterative accumulation, factorial definition, input validation
-
-#### 9. GCD Finder
-**File**: `FindGCDofNumbers.java`
-
-Calculate the greatest common divisor of two integers with a decrement-and-test algorithm.
-
-**Key Concepts**: Common divisor logic, pairwise comparison, iterative search
-
-#### 10. LCM Finder
-**File**: `FindingLCMOfNumbers.java`
-
-Determine the least common multiple by scanning upward from the larger number until a shared multiple appears.
-
-**Key Concepts**: Multiple scanning, multiplication properties, edge-case handling (≤ 0)
-
-#### 11. Fibonacci Series Generator
-**File**: `PrintingFibonacci.java`
-
-Output the Fibonacci sequence up to the largest value not exceeding the user-supplied limit.
-
-**Key Concepts**: Sequence generation, string concatenation, loop control
-
-#### 12. Star-Pattern Printer
-**File**: `PrintingStarPatterns.java`
-
-Draw two styles of text-based star triangles—incremental-width and decremental-width—based on user input.
-
-**Key Concepts**: Nested loops, string building, console graphics
-
-#### 13. Multiplication Table Printer
-**File**: `PrintMultiplicationTable.java`
-
-Display the 1-to-10 multiplication table for any given number.
-
-**Key Concepts**: Loop-driven tables, formatted console output
-
-#### 14. Digit Reverser
-**File**: `ReverseDigitsOfNumbers.java`
-
-Reverse the decimal digits of an integer using place-value multiplication.
-
-**Key Concepts**: Place-value decomposition, custom power-of-ten helper, long-return safety
-
-#### 15. Sum of Odd Numbers
-**File**: `SumAllOldTillNumber.java`
-
-Add every odd integer from 1 up to and including the user’s input.
-
-**Key Concepts**: Arithmetic progression, step-2 iteration, accumulator pattern
-
-#### 16. Digit-Sum Calculator
-**File**: `SumOfDigits.java`
-
-Sum all individual digits of an integer.
-
-**Key Concepts**: Digit extraction, modulo/divide loop, additive accumulation
-
-#### 17. Array Sorted Checker
-**File**: `CheckArraySorted.java`
-
-Determines whether an array of integers is sorted in ascending order. Uses a single pass to compare adjacent elements.
-
-**Key Concepts**: array traversal, comparison operators, early return
-
-#### 18. Array Element Deleter
-**File**: `DeleteNumberFromArray.java`
-
-Removes every occurrence of a specified number from an array and returns a new compacted array. Counts occurrences first to size the result array correctly.
-
-**Key Concepts**: array resizing, occurrence counting, filtering
-
-#### 19. Max Finder
-**File**: `FindingMinAndMaxNo.java`
-
-Finds the maximum value in an array by treating each element as a candidate and comparing it against all others. (Note: method name says “MinAndMax” but only max is implemented.)
-
-**Key Concepts**: nested loops, array comparison, linear search
-
-#### 20. Occurrence Counter
-**File**: `FindOccuranceOfNumber.java`
-
-Counts how many times a user-specified number appears in an array. Straightforward linear scan with a counter.
-
-**Key Concepts**: linear search, counters, user input
-
-#### 21. Array Reverser
-**File**: `ReverseArray.java`
-
-Creates a new array whose elements are the original array’s values in reverse order. Leaves the original array unchanged.
-
-**Key Concepts**: array indexing, in-place vs copy, iteration
-
-#### 22. Sum & Average Calculator
-**File**: `SumAndAvgOfArray.java`
-
-Calculates the total sum and arithmetic mean of an integer array, outputting both as a long and a double. Uses a long accumulator to reduce overflow risk.
-
-**Key Concepts**: accumulator pattern, type casting, average computation
-
-#### 23. Occurrence Checker
-**File**: `CheckOccureneceOfNumber.java`
-
-Counts how many times a user-specified number appears in an array. Uses an enhanced for-loop for concise traversal.
-
-**Key Concepts**: linear search, counters, enhanced for-loop
-
-#### 24. Prime Tester
-**File**: `CheckPrimeByForLoop.java`
-
-Checks whether a given integer is prime by attempting division from 2 up to n-1. Reports primality based on any successful division.
-
-**Key Concepts**: primality test, divisibility, flag counting
-
-#### 25. Input-Driven Loop Exit
-**File**: `ExitLoopByInput.java`
-
-Repeats echoing user input until the exact word “exit” (case-insensitive) is entered. Demonstrates do-while with string comparison.
-
-**Key Concepts**: do-while loop, string comparison, sentinel value
-
-#### 26. Max Finder (For-Loop)
-**File**: `FindingMaxByForLoop.java`
-
-Scans an array once to find and return the largest value. Initializes max with the first element to avoid empty-array pitfalls.
-
-**Key Concepts**: linear scan, max tracking, defensive programming
-
-#### 27. Multiplication Table
-**File**: `MultipleTableByForLoop.java`
-
-Prints the 1-to-10 multiplication table for any user-supplied integer. Classic nested-loop replacement with a single for-loop.
-
-**Key Concepts**: arithmetic formatting, loops, console output
-
-#### 28. Number Guessing Game
-**File**: `NumberGuessingGame.java`
-
-Keeps prompting the user to guess the fixed number 5 until successful. Simple do-while loop with bounded input range.
-
-**Key Concepts**: sentinel loop, user feedback, fixed target
-
-#### 29. Numeric Password Validator
-**File**: `PasswordChecker.java`
-
-Accepts only numeric passwords greater than 999 999, repeatedly prompting until the constraint is met. Treats the password as an integer.
-
-**Key Concepts**: input validation, do-while loop, numeric constraints
-
-#### 30. Fibonacci Series Printer
-**File**: `PrintingFabonnacciSeries.java`
-
-Prints the first n Fibonacci numbers via a recursive helper function. Demonstrates exponential recursion without memoization.
-
-**Key Concepts**: recursion, Fibonacci sequence, exponential complexity
-
-#### 31. Even-Number Filter
-**File**: `PrintOnlyEvenFromArray.java`
-
-Traverses an array and prints only the even values, counting how many it found. Reports “NO ONE” if no evens exist.
-
-**Key Concepts**: filtering, modulo operator, conditional output
-
-#### 32. Positive-Number Summer
-**File**: `SumOfAllPositiveNo.java`
-
-Sums all non-negative integers in an array, skipping negatives with a continue statement. Returns 0 if no positives are present.
-
-**Key Concepts**: accumulator, conditional summation, continue statement
+#### 01. Switch Statement Calculator
+**File**: `CalculatorBySwitch.java`  
+Perform basic arithmetic operations using a switch expression. The program handles addition, subtraction, multiplication, and division with division-by-zero checking.  
+**Key Concepts**: switch expressions, user input, operator handling
+
+#### 02. Student Category System
+**File**: `CatogStudentsByMarks.java`  
+Categorize students into HIGH, MEDIUM, or LOW groups based on percentage scores. Uses nested ternary operators for compact conditional logic.  
+**Key Concepts**: ternary operators, nested conditionals, classification logic
+
+#### 03. Array Sort Checker
+**File**: `CheckArraySorted.java`  
+Determine whether an integer array is sorted in ascending order. Validates the sorted property by comparing consecutive elements.  
+**Key Concepts**: array traversal, boolean logic, comparison operations
+
+#### 04. Greatest of Three Numbers
+**File**: `CheckGreatestOfThreeNumbers.java`  
+Compare three numbers and identify the greatest value. This project demonstrates conditional logic and comparison operators.  
+**Key Concepts**: nested conditionals, logical operators, user input
+
+#### 05. Armstrong Number Checker
+**File**: `CheckingArmstrong.java`  
+Verify if a number is an Armstrong number (sum of digits raised to digit count equals the original). Implements custom power and digit-counting functions.  
+**Key Concepts**: mathematical algorithms, helper methods, modular arithmetic
+
+#### 06. Prime Number Validator
+**File**: `CheckingPrimeNo.java`  
+Check whether a given number is prime by testing divisibility. Uses iterative division to identify prime numbers.  
+**Key Concepts**: prime algorithms, loop logic, divisibility testing
+
+#### 07. Palindrome String Checker
+**File**: `CheckingString.java`  
+Determine if a string reads the same forwards and backwards. Implements recursive comparison of characters from both ends.  
+**Key Concepts**: recursion, string manipulation, substring operations
+
+#### 08. Leap Year Validator
+**File**: `CheckLeapYear.java`  
+Determine if a year is a leap year using calendar rules. Applies the standard leap year algorithm (divisible by 4, not by 100, unless by 400).  
+**Key Concepts**: conditional logic, modular arithmetic, calendar algorithms
+
+#### 09. Array Element Occurrence Counter
+**File**: `CheckOccureneceOfNumber.java`  
+Count how many times a specific number appears in an array. Uses enhanced for-loop to iterate through array elements.  
+**Key Concepts**: array iteration, counting algorithms, enhanced for-loop
+
+#### 10. Odd and Even Checker
+**File**: `CheckOldAndEven.java`  
+Identify whether a number is odd or even using modulo operation. Simple demonstration of parity checking.  
+**Key Concepts**: modulo operator, conditional logic, parity checking
+
+#### 11. Bitwise Odd/Even Checker
+**File**: `CheckOldEvenByBitWise.java`  
+Determine odd or even using bitwise AND operation. Demonstrates low-level bit manipulation for parity checking.  
+**Key Concepts**: bitwise operations, binary arithmetic, optimization techniques
+
+#### 12. Positive/Negative Number Checker
+**File**: `CheckPositiveAndNegative.java`  
+Classify a number as positive, negative, or zero. Basic conditional logic for sign determination.  
+**Key Concepts**: comparison operators, conditional branching, sign checking
+
+#### 13. Prime Checker with For Loop
+**File**: `CheckPrimeByForLoop.java`  
+Test primality by counting divisors using a for loop. Counts how many numbers divide evenly into the input.  
+**Key Concepts**: for loops, divisibility testing, counter variables
+
+#### 14. Array Element Deletion
+**File**: `DeleteNumberFromArray.java`  
+Remove all occurrences of a specific number from an array. Creates a new array excluding the target value.  
+**Key Concepts**: array manipulation, dynamic sizing, element filtering
+
+#### 15. Exit Loop with Keyword
+**File**: `ExitLoopByInput.java`  
+Repeatedly read input until user types "EXIT" to terminate. Demonstrates do-while loop and string comparison.  
+**Key Concepts**: do-while loops, string comparison, program control flow
+
+#### 16. Factorial Calculator
+**File**: `FactorialOfNumber.java`  
+Calculate the factorial of a number using iterative multiplication. Computes n! by multiplying descending integers.  
+**Key Concepts**: iterative algorithms, factorial computation, accumulator pattern
+
+#### 17. Greatest Common Divisor Finder
+**File**: `FindGCDofNumbers.java`  
+Find the GCD of two numbers using a custom algorithm. Decrements from the smaller number until finding a common divisor.  
+**Key Concepts**: gcd algorithms, mathematical operations, loop termination
+
+#### 18. Least Common Multiple Calculator
+**File**: `FindingLCMOfNumbers.java`  
+Calculate the LCM of two numbers by finding the smallest common multiple. Increments multiples of the first number until divisible by the second.  
+**Key Concepts**: lcm algorithms, mathematical logic, infinite loops with break
+
+#### 19. Maximum Array Value Finder
+**File**: `FindingMaxByForLoop.java`  
+Identify the maximum value in an integer array using a for loop. Tracks the largest element encountered during iteration.  
+**Key Concepts**: array traversal, maximum finding, for loops
+
+#### 20. Maximum Number Finder
+**File**: `FindingMinAndMaxNo.java`  
+Find the maximum number in an array using nested while loops. Compares each element against all others to determine the maximum.  
+**Key Concepts**: nested loops, comparison logic, array algorithms
+
+#### 21. Number Occurrence Finder
+**File**: `FindOccuranceOfNumber.java`  
+Count how many times a specific number appears in an array using while loops. Searches through the array and increments a counter for each match.  
+**Key Concepts**: array searching, while loops, occurrence counting
+
+#### 22. Library System
+**File**: `LiberarySystem.java`  
+Manage books with borrow and return functionality using object-oriented design. Demonstrates class design with static factory method and class-level book tracking.  
+**Key Concepts**: object-oriented programming, static methods, encapsulation
+
+#### 23. Array Merger and Sorter
+**File**: `MergeArrayAndSort.java`  
+Merge two arrays and sort the combined result using bubble sort. Creates a unified array from two inputs and applies sorting algorithm.  
+**Key Concepts**: array merging, bubble sort, nested loops
+
+#### 24. Multiplication Table Generator
+**File**: `MultipleTableByForLoop.java`  
+Generate a multiplication table for a given number using a for loop. Displays products from 1 to 10 for the input number.  
+**Key Concepts**: for loops, multiplication operations, formatted output
+
+#### 25. Number Guessing Game
+**File**: `NumberGuessingGame.java`  
+Interactive game where user guesses a predetermined number. Uses do-while loop to repeatedly prompt until correct guess.  
+**Key Concepts**: do-while loops, game logic, user interaction
+
+#### 26. Password Validator
+**File**: `PasswordChecker.java`  
+Validate that a numeric password meets minimum digit requirements. Enforces that password must be at least 6 digits long.  
+**Key Concepts**: input validation, do-while loops, condition checking
+
+#### 27. Fibonacci Series Printer (Recursive)
+**File**: `PrintingFabonnacciSeries.java`  
+Generate Fibonacci sequence using recursive function calls. Calculates each term by summing the two preceding terms recursively.  
+**Key Concepts**: recursion, fibonacci algorithm, base cases
+
+#### 28. Fibonacci Series Generator (Iterative)
+**File**: `PrintingFibonacci.java`  
+Generate Fibonacci sequence up to a limit using iterative approach. Builds sequence string by calculating consecutive terms.  
+**Key Concepts**: iterative algorithms, string concatenation, fibonacci sequence
+
+#### 29. Star Pattern Printer
+**File**: `PrintingStarPatterns.java`  
+Display two different star patterns in ascending and descending order. Demonstrates pattern generation with nested loops.  
+**Key Concepts**: nested loops, pattern printing, string building
+
+#### 30. Month Name Printer
+**File**: `PrintMonthBySwitch.java`  
+Convert month numbers (1-12) to month names using switch statement. Maps numeric input to corresponding month name.  
+**Key Concepts**: switch statements, case handling, input mapping
+
+#### 31. Multiplication Table Printer
+**File**: `PrintMultiplicationTable.java`  
+Display multiplication table using a custom function with while loop. Prints products from 1 to 10 for given number.  
+**Key Concepts**: functions, while loops, multiplication tables
+
+#### 32. Even Number Filter
+**File**: `PrintOnlyEvenFromArray.java`  
+Extract and display only even numbers from an array. Filters array elements using modulo operation to identify even values.  
+**Key Concepts**: array filtering, modulo operator, conditional output
+
+#### 33. Array Reverser
+**File**: `ReverseArray.java`  
+Reverse the order of elements in an array. Creates new array with elements in opposite order from original.  
+**Key Concepts**: array manipulation, reversal algorithm, indexing
+
+#### 34. Digit Reverser
+**File**: `ReverseDigitsOfNumbers.java`  
+Reverse the digits of an integer number. Extracts digits and reconstructs number in reverse order using power calculations.  
+**Key Concepts**: digit manipulation, modular arithmetic, power operations
+
+#### 35. 2D Array Search
+**File**: `SearchFromTwoDArray.java`  
+Search for a specific value in a two-dimensional array. Uses nested loops to traverse rows and columns for target value.  
+**Key Concepts**: 2d arrays, nested iteration, boolean return
+
+#### 36. Odd Number Sum Calculator
+**File**: `SumAllOldTillNumber.java`  
+Calculate sum of all odd numbers up to a given limit. Iterates through odd numbers and accumulates their total.  
+**Key Concepts**: arithmetic progression, odd numbers, accumulation
+
+#### 37. Array Sum and Average Calculator
+**File**: `SumAndAvgOfArray.java`  
+Compute both sum and average of array elements. Calculates total sum then divides by array length for average.  
+**Key Concepts**: array statistics, sum calculation, average computation
+
+#### 38. Positive Number Sum Calculator
+**File**: `SumOfAllPositiveNo.java`  
+Sum only the positive numbers from an array containing mixed values. Skips negative numbers using continue statement.  
+**Key Concepts**: conditional accumulation, continue statement, filtering logic
+
+#### 39. Diagonal Sum Calculator
+**File**: `SumOfDiagonalInArray.java`  
+Calculate sums of both diagonals in a 2D square array. Computes left-to-right and right-to-left diagonal totals.  
+**Key Concepts**: 2d arrays, diagonal traversal, index arithmetic
+
+#### 40. Digit Sum Calculator
+**File**: `SumOfDigits.java`  
+Calculate the sum of all digits in an integer. Extracts each digit using modulo and adds to running total.  
+**Key Concepts**: digit extraction, modular arithmetic, summation
 
 ## 🚀 Getting Started
 
