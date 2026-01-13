@@ -218,6 +218,36 @@ Calculate sums of both diagonals in a 2D square array. Computes left-to-right an
 Calculate the sum of all digits in an integer. Extracts each digit using modulo and adds to running total.  
 **Key Concepts**: digit extraction, modular arithmetic, summation
 
+## 41. **Circle Geometry Calculator**
+**File:** `AreaAndCircumOfCircle.java`  
+Calculate the area and circumference of a circle given its diameter. Demonstrates mathematical operations using built-in constants and functions.  
+**Key Concepts:** math library usage, formatted output, arithmetic operations
+
+## 42. **String Concatenation and Formatting**
+**File:** `ConcatString.java`  
+Concatenate two input strings and display them in uppercase with formatted output. Shows string manipulation and printf formatting capabilities.  
+**Key Concepts:** string operations, formatted printing, user input
+
+## 43. **Number Guessing Game**
+**File:** `GuessingGame2.java`  
+Interactive game where players guess a randomly generated number with feedback on each attempt. Tracks the number of tries needed to win.  
+**Key Concepts:** do-while loops, random number generation, conditional logic
+
+## 44. **Dice Simulator**
+**File:** `MakingDice.java`  
+Simulate rolling a six-sided dice multiple times using a reusable method. Demonstrates method creation and random number generation within a specific range.  
+**Key Concepts:** method definition, random number generation, function reusability
+
+## 45. **Student Record System**
+**File:** `Student.java`  
+Create and manage student objects with immutable phone numbers using a factory method pattern. Demonstrates object creation with a private constructor and custom toString implementation.  
+**Key Concepts:** factory method pattern, encapsulation, object-oriented design, final fields
+
+## 46. **Fruit List Builder**
+**File:** `UseOfStringBuilder.java`  
+Efficiently concatenate multiple fruit names from an array using StringBuilder. Demonstrates the performance advantage of StringBuilder over string concatenation in loops.  
+**Key Concepts:** StringBuilder usage, array iteration, string manipulation
+
 ## 🚀 Getting Started
 
 ### Prerequisites
