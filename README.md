@@ -218,35 +218,75 @@ Calculate sums of both diagonals in a 2D square array. Computes left-to-right an
 Calculate the sum of all digits in an integer. Extracts each digit using modulo and adds to running total.  
 **Key Concepts**: digit extraction, modular arithmetic, summation
 
-## 41. **Circle Geometry Calculator**
+#### 41. **Circle Geometry Calculator**
 **File:** `AreaAndCircumOfCircle.java`  
 Calculate the area and circumference of a circle given its diameter. Demonstrates mathematical operations using built-in constants and functions.  
 **Key Concepts:** math library usage, formatted output, arithmetic operations
 
-## 42. **String Concatenation and Formatting**
+#### 42. **String Concatenation and Formatting**
 **File:** `ConcatString.java`  
 Concatenate two input strings and display them in uppercase with formatted output. Shows string manipulation and printf formatting capabilities.  
 **Key Concepts:** string operations, formatted printing, user input
 
-## 43. **Number Guessing Game**
+#### 43. **Number Guessing Game**
 **File:** `GuessingGame2.java`  
 Interactive game where players guess a randomly generated number with feedback on each attempt. Tracks the number of tries needed to win.  
 **Key Concepts:** do-while loops, random number generation, conditional logic
 
-## 44. **Dice Simulator**
+#### 44. **Dice Simulator**
 **File:** `MakingDice.java`  
 Simulate rolling a six-sided dice multiple times using a reusable method. Demonstrates method creation and random number generation within a specific range.  
 **Key Concepts:** method definition, random number generation, function reusability
 
-## 45. **Student Record System**
+#### 45. **Student Record System**
 **File:** `Student.java`  
 Create and manage student objects with immutable phone numbers using a factory method pattern. Demonstrates object creation with a private constructor and custom toString implementation.  
 **Key Concepts:** factory method pattern, encapsulation, object-oriented design, final fields
 
-## 46. **Fruit List Builder**
+#### 46. **Fruit List Builder**
 **File:** `UseOfStringBuilder.java`  
 Efficiently concatenate multiple fruit names from an array using StringBuilder. Demonstrates the performance advantage of StringBuilder over string concatenation in loops.  
 **Key Concepts:** StringBuilder usage, array iteration, string manipulation
+
+#### 47. **Array Statistics with Static Nested Class**
+**File:** `ArrayOperation.java`  
+Calculate the mean of an array using a static nested class for statistical operations. Demonstrates static class members and nested class design patterns.  
+**Key Concepts:** static nested classes, static fields, encapsulation
+
+#### 48. **Array Statistics with Inner Class**
+**File:** `ArrayOperations.java`  
+Calculate the mean of an array using a non-static inner class for statistical operations. Shows how inner classes can access outer class instance variables.  
+**Key Concepts:** inner classes, instance variables, encapsulation
+
+#### 49. **Bank Account Manager**
+**File:** `BankAccount.java`  
+Manage bank account operations including deposits and withdrawals with balance validation. Implements factory method pattern for object creation with private constructor.  
+**Key Concepts:** encapsulation, factory method pattern, data validation
+
+#### 50. **Library Item Base Class**
+**File:** `LibraryItems.java`  
+Base class for library items with checkout and return functionality. Provides protected methods for subclasses to set item properties.  
+**Key Concepts:** inheritance foundation, protected access modifiers, state management
+
+#### 51. **Circle Geometry Class**
+**File:** `Circle.java`  
+Calculate the area of a circle based on its radius. Part of a geometry package demonstrating modular code organization.  
+**Key Concepts:** class design, mathematical operations, package organization
+
+#### 52. **Rectangle Geometry Class**
+**File:** `Rectangle.java`  
+Calculate the area of a rectangle using length and width. Implements factory method pattern for object creation.  
+**Key Concepts:** factory method pattern, class design, package organization
+
+#### 53. **Geometry Calculator**
+**File:** `Calculator.java`  
+Calculate and display areas of rectangles and circles by importing geometry classes. Demonstrates cross-package imports and class usage.  
+**Key Concepts:** package imports, object instantiation, cross-package dependencies
+
+#### 54. **OOP Testing Suite**
+**File:** `TestingClasses.java`  
+Comprehensive testing class that demonstrates bank accounts, library items with inheritance, and nested class implementations. Contains an inner Book class extending LibraryItems to show inheritance in practice.  
+**Key Concepts:** inheritance, inner classes, integration testing, polymorphism
 
 ## 🚀 Getting Started
 
