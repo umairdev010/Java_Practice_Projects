@@ -288,6 +288,22 @@ Calculate and display areas of rectangles and circles by importing geometry clas
 Comprehensive testing class that demonstrates bank accounts, library items with inheritance, and nested class implementations. Contains an inner Book class extending LibraryItems to show inheritance in practice.  
 **Key Concepts:** inheritance, inner classes, integration testing, polymorphism
 
+#### 55. Abstract Bird Base Class
+**File**: `Bird.java`  
+Defines an abstract bird class that represents common bird behavior while enforcing flying capability through an interface. This program demonstrates how abstract classes provide a base structure for subclasses.  
+**Key Concepts**: abstraction, inheritance, interfaces
+
+#### 56. Eagle Implementation Class
+**File**: `Eagle.java`  
+Represents a concrete bird that extends the abstract bird class and implements flying behavior. This example shows how subclasses override methods to provide specific functionality.  
+**Key Concepts**: method overriding, polymorphism, inheritance
+
+#### 57. Flyable Interface
+**File**: `FlyAble.java`  
+Declares an interface that defines flying behavior for classes that can fly. It illustrates how interfaces are used to achieve abstraction and loose coupling.  
+**Key Concepts**: interfaces, abstraction, loose coupling
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
