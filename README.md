@@ -231,7 +231,7 @@ Concatenate two input strings and display them in uppercase with formatted outpu
 #### 43. **Number Guessing Game**
 **File:** `GuessingGame2.java`  
 Interactive game where players guess a randomly generated number with feedback on each attempt. Tracks the number of tries needed to win.  
-**Key Concepts:** do-while loops, random number generation, conditional logic
+**Key Concepts:** do-while loops, random number generation, conditional logic,Math
 
 #### 44. **Dice Simulator**
 **File:** `MakingDice.java`  
