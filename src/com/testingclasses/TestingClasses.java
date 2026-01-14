@@ -6,7 +6,7 @@ import com.mainclasses.BankAccount;
 import com.mainclasses.LibraryItems;
 
 public class TestingClasses {
-
+    // instance methods made from other classes
     void creatingBankAccount() {
 
         BankAccount myAcount = BankAccount.createBankAccount(12343, "Umair Tariq", 3456);
