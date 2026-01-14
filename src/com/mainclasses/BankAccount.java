@@ -5,10 +5,18 @@ public class BankAccount {
     private String AccountHolderName;
     private int accountBalance;
 
+    public BankAccount(){
+
+    }
+
     BankAccount(int accountNo, String accountHolderName, int accountBalance) {
         this.accountNo = accountNo;
         this.AccountHolderName = accountHolderName;
         this.accountBalance = accountBalance;
+    }
+
+    public void bankName(){
+        System.out.print("WELLCOME TO THE BANK OF JAVA.");
     }
 
     public static BankAccount createBankAccount(int accountNo, String accountHolderName, int accountBalance){

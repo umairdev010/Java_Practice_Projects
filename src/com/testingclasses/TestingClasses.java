@@ -32,9 +32,9 @@ public class TestingClasses {
 
     }
 
-    void arrayOperation(int[] inputArray){
+    void arrayOperation(int[] inputArray) {
 
-        ArrayOperations newArray = new ArrayOperations(new int[] {1,2,3,4,5});
+        ArrayOperations newArray = new ArrayOperations(new int[]{1, 2, 3, 4, 5});
         ArrayOperations.Statistics arrayops = newArray.new Statistics();
         arrayops.mean();
 
@@ -47,7 +47,19 @@ public class TestingClasses {
 //        createTesting.creatingBankAccount();
 //        createTesting.creatingBook();
 //            createTesting.arrayOperations(new int[] {1,2,3,4,5});
-            createTesting.arrayOperation(new int[]{1,2,3,4,5});
+//            createTesting.arrayOperation(new int[]{1,2,3,4,5});
+        BankAccount umairAccount = new UmairAccount();
+        umairAccount.bankName();
+
+    }
+
+    static class UmairAccount extends BankAccount{
+
+        @Override
+        public void bankName() {
+            super.bankName();
+            System.out.print("\nWELLCOME TO THE SUB BRANCH UMAIRS BANK");
+        }
     }
 
 
