@@ -12,6 +12,7 @@ public class ExceptionHandling {
             System.out.printf("THE DIVISION OF TWO NUMBER IS %d", var1st/var2nd);
         } catch (ArithmeticException e){
             System.out.printf("THERE IS A ERROR : %s",e.getMessage());
+            // Exception is main class of all error which parent class is throwable
         } catch (Exception e){
             System.out.printf("THERE IS A Exception ERROR : %s",e.getMessage());
         }
