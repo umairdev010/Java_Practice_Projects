@@ -303,20 +303,20 @@ Represents a concrete bird that extends the abstract bird class and implements f
 Declares an interface that defines flying behavior for classes that can fly. It illustrates how interfaces are used to achieve abstraction and loose coupling.  
 **Key Concepts**: interfaces, abstraction, loose coupling
 
-#### 58. **Exception Throwing and Handling**
-File: `ExceptionThrow.java`  
+#### 58. Exception Throwing and Handling
+**File**: `ExceptionThrow.java`  
 Demonstrates custom exception creation and throwing in constructor and methods. This project shows how to create a custom checked exception class and enforce validation rules that throw exceptions when specific conditions are met.  
-Key Concepts: custom exceptions, checked exceptions, throw statement, exception propagation
+**Key Concepts**: custom exceptions, checked exceptions, throw statement, exception propagation
 
-#### 59. **File Reading Tool**
-File: `FileRead.java`  
+#### 59. File Reading Tool
+**File**: `FileRead.java`  
 Reads and displays the contents of a text file character by character. This project demonstrates file I/O operations with proper resource management using try-with-resources.  
-Key Concepts: file reading, try-with-resources, exception handling, character streams
+**Key Concepts**: file reading, try-with-resources, exception handling, character streams
 
-#### 60. **File Writing Tool**
-File: `FileWrite.java`  
+#### 60. File Writing Tool
+**File**: `FileWrite.java`  
 Creates a new file and writes user input content until "exit" is entered. This project shows how to write data to files and handle file I/O operations with proper exception handling.  
-Key Concepts: file writing, resource management, exception handling, user input loops
+**Key Concepts**: file writing, resource management, exception handling, user input loops
 
 ## 🚀 Getting Started
 
