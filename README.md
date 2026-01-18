@@ -318,6 +318,42 @@ Reads and displays the contents of a text file character by character. This proj
 Creates a new file and writes user input content until "exit" is entered. This project shows how to write data to files and handle file I/O operations with proper exception handling.  
 **Key Concepts**: file writing, resource management, exception handling, user input loops
 
+#### 61. Variable Arguments String Concatenation
+**File:** `ArgumentsProject.java`  
+Concatenate multiple strings using varargs (variable-length arguments).  
+This project demonstrates how to accept and process a flexible number of string parameters.  
+**Key Concepts:** varargs, StringBuilder, string manipulation, enhanced for loop
+
+#### 62. Custom String Comparator
+**File:** `CustomComparator.java`  
+Sort a list of strings using a custom comparator based on first character.  
+This project demonstrates how to implement custom sorting logic using anonymous inner classes.  
+**Key Concepts:** Comparator interface, anonymous classes, lambda alternatives, list sorting
+
+#### 63. List Duplicate Removal
+**File:** `ListProject.java`  
+Remove duplicate elements from an ArrayList using nested loops.  
+This project demonstrates manual duplicate removal with index-based iteration.  
+**Key Concepts:** ArrayList operations, nested loops, element removal, index management
+
+#### 64. Priority Queue with Custom Ordering
+**File:** `PriorityQueueProject.java`  
+Create a priority queue of Student objects sorted by marks in descending order.  
+This project demonstrates custom object comparison and priority queue behavior.  
+**Key Concepts:** PriorityQueue, custom comparators, object-oriented design, toString override
+
+#### 65. Basic Queue Operations
+**File:** `QueueProject.java`  
+Demonstrate fundamental queue operations using LinkedList implementation.  
+This project shows FIFO (First-In-First-Out) behavior with offer, poll, and peek methods.  
+**Key Concepts:** Queue interface, LinkedList, FIFO operations, null handling
+
+#### 66. Generic List Swap Utility
+**File:** `SwapNoInArrayList.java`  
+Swap elements at two positions in a list using generic type parameters.  
+This project demonstrates type-safe operations that work with any list type.  
+**Key Concepts:** generics, type parameters, List interface, method reusability
+
 ## 🚀 Getting Started
 
 ### Prerequisites
