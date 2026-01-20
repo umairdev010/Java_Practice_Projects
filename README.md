@@ -384,6 +384,32 @@ Simulate a traffic light system with timed color transitions using threads.
 This project uses enums to represent signal states and synchronized methods for timing control.  
 **Key Concepts:** synchronized methods, enum types, state management, timed execution
 
+#### 73. Lambda Expression Calculator
+**File:** `LambdaProject1.java`  
+Implement a simple addition operation using lambda expressions with a functional interface.  
+This project demonstrates the basic syntax and usage of lambda expressions in Java.  
+**Key Concepts:** lambda expressions, functional interface, method implementation, type inference
+
+#### 74. Stream API Name Printer
+**File:** `LambdaProject2.java`  
+Print all names from a list using streams and lambda expressions for iteration.  
+This project shows how to use forEach with lambda expressions for list traversal.  
+**Key Concepts:** stream api, lambda expressions, forEach operation, list processing
+
+#### 75. Stream Filter by Length
+**File:** `LambdaProject3.java`  
+Filter and display names longer than 3 characters using stream operations.  
+This project demonstrates chaining stream operations with filter and forEach methods.  
+**Key Concepts:** stream filtering, lambda expressions, method chaining, predicate logic
+
+---
+
+**Project Collection Complete: 75 Java Programs**
+
+This collection encompasses 75 Java projects covering the full spectrum of object-oriented programming concepts. The projects progress from basic OOP fundamentals through advanced topics including inheritance, polymorphism, encapsulation, abstraction, interfaces, generics, collections framework, multithreading, concurrency with executors, and modern Java features like lambda expressions and the Stream API. Each project is designed to demonstrate practical implementation of core computer science concepts and Java programming principles.
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
