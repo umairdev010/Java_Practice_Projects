@@ -354,6 +354,36 @@ Swap elements at two positions in a list using generic type parameters.
 This project demonstrates type-safe operations that work with any list type.  
 **Key Concepts:** generics, type parameters, List interface, method reusability
 
+#### 68. Executor Service Counting Task
+**File:** `ExecutorProject1.java`  
+Execute a simple counting task using a single-thread executor service.  
+This project demonstrates the basics of the Executor framework with a Thread-based task.  
+**Key Concepts:** executor service, thread extension, task submission, thread pool
+
+#### 69. Concurrent Factorial Calculator
+**File:** `ExecutorProject2.java`  
+Calculate factorials of multiple numbers concurrently using a fixed thread pool.  
+This project uses Callable tasks to return computed results via Future objects.  
+**Key Concepts:** callable interface, future objects, fixed thread pool, concurrent computation
+
+#### 70. Basic Multithreading Demo
+**File:** `ThreadProject.java`  
+Run two threads concurrently that print their identification and thread names.  
+This project shows basic thread creation by extending the Thread class.  
+**Key Concepts:** thread extension, concurrent execution, thread.sleep(), thread naming
+
+#### 71. Sequential Thread Execution
+**File:** `ThreadProject2.java`  
+Execute three threads sequentially using the join method to control execution order.  
+This project demonstrates thread synchronization and controlled execution flow.  
+**Key Concepts:** runnable interface, thread.join(), sequential execution, thread coordination
+
+#### 72. Traffic Signal Simulator
+**File:** `TrafficSignalsByThread.java`  
+Simulate a traffic light system with timed color transitions using threads.  
+This project uses enums to represent signal states and synchronized methods for timing control.  
+**Key Concepts:** synchronized methods, enum types, state management, timed execution
+
 ## 🚀 Getting Started
 
 ### Prerequisites
